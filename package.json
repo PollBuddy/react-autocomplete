@@ -1,7 +1,7 @@
 {
-  "name": "react-autocomplete",
-  "version": "1.8.1",
-  "description": "Accessible, extensible, Autocomplete for React.js",
+  "name": "react-autocomplete-pollbuddy",
+  "version": "1.9.0",
+  "description": "Accessible, extensible, Autocomplete for React.js, updated for new React versions",
   "main": "./build/lib/Autocomplete.js",
   "files": [
     "build/lib/index.js",
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactjs/react-autocomplete.git"
+    "url": "https://github.com/pollbuddy/react-autocomplete.git"
   },
-  "homepage": "https://github.com/reactjs/react-autocomplete",
-  "bugs": "https://github.com/reactjs/react-autocomplete/issues",
+  "homepage": "https://github.com/pollbuddy/react-autocomplete",
+  "bugs": "https://github.com/pollbuddy/react-autocomplete/issues",
   "directories": {
     "example": "examples"
   },
@@ -31,7 +31,8 @@
     "start": "SCRIPTY_PARALLEL=true scripty"
   },
   "authors": [
-    "Ryan Florence <rpflorence@gmail.com>"
+    "Ryan Florence <rpflorence@gmail.com>",
+    "Poll Buddy <hello@pollbuddy.app>"
   ],
   "license": "MIT",
   "devDependencies": {
@@ -77,8 +78,8 @@
     "prop-types": "^15.5.10"
   },
   "peerDependencies": {
-    "react": "^0.14.7 || ^15.0.0-0 || ^16.0.0-0",
-    "react-dom": "^0.14.7 || ^15.0.0-0 || ^16.0.0-0"
+    "react": "^0.14.7 || ^15.0.0-0 || ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0",
+    "react-dom": "^0.14.7 || ^15.0.0-0 || ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0"
   },
   "jest": {
     "snapshotSerializers": [
